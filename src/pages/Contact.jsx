@@ -1,8 +1,13 @@
 function Contact() {
   return (
-    <div>
-      <h1>Liên hệ</h1>
-      <p>Đây là trang Contact.</p>
+    <div className="page">
+      <h1>TODO: Liên hệ</h1>
+
+      <p>
+        Hãy tự thiết kế trang liên hệ.
+      </p>
+
+      {/* TODO: Tạo form liên hệ */}
     </div>
   );
 }
