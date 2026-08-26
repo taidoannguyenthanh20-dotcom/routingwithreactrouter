@@ -1,9 +1,15 @@
 function About() {
   return (
-    <div>
-      <h1>Giới thiệu</h1>
-      <p>Đây là trang About.</p>
+    <div className="page">
+      <h1>TODO: Giới thiệu</h1>
+
+      <p>
+        Hãy tự thiết kế trang giới thiệu.
+      </p>
+
+      {/* TODO: Thêm thông tin cá nhân */}
     </div>
   );
 }
+
 export default About;
