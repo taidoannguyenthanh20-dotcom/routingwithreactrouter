@@ -1,40 +1,34 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import "./App.css";
 
-function Home() {
+function App() {
   return (
-    <div className="page">
-      <div className="card">
-        <div className="icon">🏠</div>
-        <h1>Trang chủ</h1>
-        <p>Chào mừng bạn đến với Demo Routing bằng React.</p>
-        <Link className="button" to="/about">
-          Khám phá →
-        </Link>
-      </div>
-    </div>
+    <BrowserRouter>
+      <nav className="navbar">
+        <h2>My Profile</h2>
+
+        <div className="nav-links">
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      </nav>
+
+      <main className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 }
 
-function About() {
-  return (
-    <div className="page">
-      <div className="card">
-        <div className="icon">👨‍💻</div>
-        <h1>Giới thiệu</h1>
-        <p>
-          Đây là trang giới thiệu được xây dựng bằng React Router.
-        </p>
-        <Link className="button" to="/contact">
-          Liên hệ →
-        </Link>
-      </div>
-    </div>
-  );
-}
-
-function Contact() {
-  return (
+export default App;  return (
     <div className="page">
       <div className="card">
         <div className="icon">📩</div>
