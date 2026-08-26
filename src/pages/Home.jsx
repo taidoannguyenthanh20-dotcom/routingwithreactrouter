@@ -1,9 +1,15 @@
 function Home() {
   return (
-    <div>
-      <h1>Trang chủ</h1>
-      <p>Đây là trang Home.</p>
+    <div className="page">
+      <h1>TODO: Trang chủ</h1>
+
+      <p>
+        Hãy tự thiết kế nội dung cho trang chủ.
+      </p>
+
+      {/* TODO: Thêm nội dung của bạn */}
     </div>
   );
 }
+
 export default Home;
