@@ -55,3 +55,22 @@ git clone LINK_REPOSITORY_FORK_CUA_BAN
 cd demo-routing
 pwd
 
+_Bước 3: Sau khi làm xong, Comit bài
+
+git add .
+git commit -m "Complete React Router assignment"
+
+_Bước 4: Push bài lên github
+
+git push origin submission/MSSV-HoTen
+
+_Bước 5: Tạo Pull Request
+
+Sau khi push thành công:
+Vào repository GitHub cá nhân.
+Chọn Compare & pull request.
+Tạo Pull Request về repository của nhóm.
+Đặt tiêu đề:
+Submission - MSSV - Họ tên
+
+
