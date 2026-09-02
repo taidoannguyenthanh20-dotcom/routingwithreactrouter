@@ -2,6 +2,11 @@
 # Demo Routing
 
 Demo sử dụng React và React Router.
+*Những thứ cần tải:
+Cài Node.js
+Trên máy mới, mở trình duyệt và vào trang chính thức:
+Node.js
+Tải bản LTS và cài đặt.
 
 ## Các trang
 
