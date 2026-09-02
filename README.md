@@ -29,6 +29,7 @@ Trang	URL	Component
 Trang chủ	/	Home.jsx
 Giới thiệu	/about	About.jsx
 Liên hệ	/contact	Contact.jsx
+
 <img width="244" height="174" alt="Screenshot 2026-09-03 at 04 36 14" src="https://github.com/user-attachments/assets/f15ae080-cae9-44eb-8478-8bdbc218764e" />
 
 
