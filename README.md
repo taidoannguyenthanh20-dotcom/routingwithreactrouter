@@ -19,6 +19,9 @@ Cài đặt và sử dụng react-router-dom.
 Sử dụng BrowserRouter, Routes, Route, Link.
 Tạo nhiều trang trong một ứng dụng React.
 Sử dụng CSS để thiết kế giao diện.
+
+<img width="258" height="34" alt="Screenshot 2026-09-03 at 04 50 21" src="https://github.com/user-attachments/assets/94ad0982-7407-4450-9619-a308c6dd6446" />
+
 Sử dụng Git và GitHub để nộp bài.
 
 2. Đề bài
@@ -42,7 +45,7 @@ Routes
 Route
 Link
 
-4.🛠️ HƯỚNG DẪN NỘP BÀI
+4.Hướng dẫn nộp bài
 _Bước 1: Fork repository
 
 Truy cập repository bài tập của nhóm trên GitHub.
