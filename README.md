@@ -5,6 +5,7 @@ Demo sử dụng React và React Router.
 
 *Những thứ cần tải:
 _Cài Node.js (Cài trên web)
+
 _Cài npm (cài trên visual studio code)
 npm install
 
@@ -40,7 +41,7 @@ Liên hệ	/contact	Contact.jsx
 
 <img width="259" height="193" alt="Screenshot 2026-09-03 at 04 35 41" src="https://github.com/user-attachments/assets/293055fb-1f8e-46e8-8be5-ab08c50a1a33" />
 
-
+<img width="1415" height="667" alt="Screenshot 2026-09-03 at 11 58 19" src="https://github.com/user-attachments/assets/5a076d2d-9f60-4ca6-8859-4ef1925ebbcd" />
 
 3.Yêu cầu React Router
 Sinh viên bắt buộc sử dụng React Router.
