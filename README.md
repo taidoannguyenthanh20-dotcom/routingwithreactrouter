@@ -8,7 +8,7 @@ Demo sử dụng React và React Router.
 _Cài Node.js (Cài trên web)
 
 _Cài npm (cài trên visual studio code)
-npm install
+"npm install"
 
 ## Các trang
 
