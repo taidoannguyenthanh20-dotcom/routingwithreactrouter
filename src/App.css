@@ -1,1 +1,163 @@
+:root {
+  --purple: #a98bff;
+  --pink: #ff84bd;
+  --text-light: #bbb6ca;
+  --border: rgba(255, 255, 255, 0.13);
+  --box: rgba(255, 255, 255, 0.06);
+}
 
+body {
+  background:
+    radial-gradient(circle at top right, rgba(126, 82, 255, 0.16), transparent 35%),
+    #0d0b18;
+}
+
+.website {
+  width: min(900px, calc(100% - 40px));
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+header h2 {
+  margin: 0;
+  color: var(--pink);
+}
+
+nav {
+  display: flex;
+  gap: 22px;
+}
+
+nav a {
+  color: var(--text-light);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--purple);
+}
+
+main {
+  flex: 1;
+}
+
+.page {
+  padding: 80px 0;
+}
+
+.page.home {
+  max-width: 680px;
+  padding-top: 120px;
+}
+
+.label {
+  margin-bottom: 18px;
+  color: var(--purple);
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  margin: 0 0 24px;
+  font-size: clamp(36px, 7vw, 58px);
+  line-height: 1.1;
+}
+
+h2 {
+  margin-top: 36px;
+}
+
+.page > p:not(.label, .note) {
+  max-width: 650px;
+  color: var(--text-light);
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: #100d1b;
+  background: linear-gradient(90deg, var(--purple), var(--pink));
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content-box {
+  max-width: 680px;
+  margin-top: 30px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--box);
+}
+
+.content-box p {
+  margin: 8px 0;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.content-box strong {
+  color: #f7f4ff;
+}
+
+ul {
+  color: var(--text-light);
+  line-height: 1.9;
+}
+
+.contact-info a {
+  color: var(--purple);
+}
+
+.note {
+  margin-top: 20px;
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+footer {
+  padding: 24px 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 18px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .page,
+  .page.home {
+    padding: 60px 0;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+}
