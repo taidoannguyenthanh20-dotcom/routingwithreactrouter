@@ -52,6 +52,9 @@ Routes
 Route
 Link
 
+<img width="317" height="26" alt="Screenshot 2026-09-03 at 12 01 23" src="https://github.com/user-attachments/assets/3071d8ef-5da6-4849-a127-f5c42c31c843" />
+
+
 4.Hướng dẫn nộp bài
 _Bước 1: Fork repository
 
